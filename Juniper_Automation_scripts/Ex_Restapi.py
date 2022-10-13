@@ -10,7 +10,7 @@ headers = {
 
 # Pushing the API call response to response variable as python dictionary using json library
 
-response = requests.get(url, headers=headers, auth=('herald', 'juniper@126')).json()
+response = requests.get(url, headers=headers, auth=('herald', '@@@@@@@@@@')).json()
 
 print(json.dumps(response, indent=2, sort_keys=True))
 
